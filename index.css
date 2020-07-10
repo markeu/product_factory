@@ -3,6 +3,7 @@
     --main-txt-color: white; 
     --main-font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +11,7 @@
   }
   
   .container {
-    width: 1250px;
-    /* border: 1px solid green; */
+    width: 1100px;
     margin: 0 auto;
   }
   
@@ -22,7 +22,6 @@
   
   .header{
     height: 120px;
-    
     justify-content: center;
     font-family: var(--main-font-family);;
   }
@@ -53,7 +52,7 @@
     border-radius: 20px;
     color: var(--main-txt-color);
     border-style: none;
-    margin-left: 40px;
+    margin-left: 70px;
     background-color: grey;
   }
   
@@ -68,8 +67,69 @@
   }
 
   .overlap{
-      height: 600px;
+      height: 700px;
       background-color: var(--main-txt-color);
       margin: auto;
       border-radius: 40px;
+      box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
   }
+  .front-left {
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+  }     
+  .front-left h1{
+    font-weight: 600px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-family: var(--main-font-family);
+  }
+
+  .front-left h3{
+    margin-bottom: 110px;
+    margin-top: 10px;
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+  }
+
+  .front-left p{
+    color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing: 0.1em;
+    text-align: auto;
+    margin: 100px auto;
+    line-height: 145%;
+    font-size: 14pt;
+    margin-bottom: 80px;
+  }
+
+  .front-left button{
+    display: inline;
+    padding: 1em 5em;
+    margin: 0 0.8em 0.7em 0;
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    background-color: salmon;
+    position: relative;
+    text-align: center;
+   }
+
+   .front-right{
+    /* background-color: #c00; */
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 80px;
+  }
+
+  .front-right img{
+      height: 450px;
+      margin-top: 10px;
+  }
+  
