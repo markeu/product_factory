@@ -207,8 +207,8 @@
 }
 
 .layer2{
-    height: 500px;
-    background-color: thistle;
+    height: 600px;
+    /* background-color: thistle; */
     border-radius: 40px;
     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
     margin-top: 140px;
@@ -232,33 +232,86 @@
 
   }
 
-  .timeline {
+  .course-impact{
     width: max-content;
     margin: 0 auto;
     border-radius: 10px;
     justify-content: space-between;
   } 
   
-  .timeline p{
+  .course-impact p{
     display: inline-block;
     padding: 10px 40px;  
   }
   
   
-  .timeline p:first-child{
+  .course-impact p:first-child{
     border-radius: 10px 0 0 10px;
     border: 1px solid black;
   }
   
-  .timeline p:nth-child(2){
+  .course-impact p:nth-child(2){
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }
   
-  .timeline p:last-child{
+  .course-impact p:last-child{
     border-radius: 0 10px 10px 0;
     border-right: none;
     border: 1px solid black;
     background-color: black;
     color: #fff;
+  }
+
+  .layer2-left{
+    width: 200px;
+    height: 500px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+
+  .layer2-left img{
+    margin-top: -9px;
+    width: 280px;
+  }
+
+  .layer2-right{
+    width: 660px;
+    height: 600px;
+    float: left;
+  }
+
+  .layer2-right > p{
+    margin-top: 60px;
+    margin-left: 120px;
+    font-size: 0.9em;
+    line-height: 2.5;
+    font-family: var(--main-font-family);
+  }
+
+  .session-div{
+    height: 1000px;
+    background-color: thistle;
+    border-radius: 40px;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    margin-top: 140px;
+  }
+
+  .session-head1{
+    text-align: center;
+    margin-right: 100px;
+  }
+  
+  .session-head1 > p {
+    font-size: 110px;
+    color: #f2f2f2;
+    font-weight: bolder;
+  }
+  
+  .sessions-head2 {
+    font-weight: bold;
+    transform: translate(-0%, -75px);
+    font-size: 30px;
+    font-family: var(--main-font-family);
   }
