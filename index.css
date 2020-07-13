@@ -599,7 +599,7 @@
 .schedule{
   /* background-color: thistle; */
   border-radius: 40px;
-  box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  /* box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17); */
   margin-top: 90px;
   padding: 0 60px;
   height: 550px;
@@ -673,14 +673,35 @@
   margin-left: 70px;
   background-color: #F46632;
   margin-right: 220px;
+  outline: none;
  }
 
  .endgame{
   border-radius: 40px;
-  box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  /* box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17); */
   margin-top: 90px;
   padding: 0 60px;
-  height: 550px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  background-color: white;
  }
+
+ .endgame img{
+   width: 85px;
+   height: 35px;
+ }
+ 
+ .endgame p{
+   /* float: right; */
+   font-size: 13px;
+ }
+ 
+.footer-nav li{
+  display: inline;
+}
+.footer-nav a{
+  display:inline-block;
+  padding: 12px;
+  margin-left: -50px;
+}
